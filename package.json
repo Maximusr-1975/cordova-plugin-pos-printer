@@ -1,27 +1,22 @@
 {
-  "name": "alpha-printer-plugin",
+  "name": "cordova-plugin-pos-printer",
   "version": "1.0.0",
-  "description": "Alpha Anywhere POS Printer Plugin with HTML to Image support",
+  "description": "POS Printer Plugin with HTML to Image support",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "cordova": {
-    "id": "alpha-printer-plugin",
+    "id": "cordova-plugin-pos-printer",
     "platforms": [
       "android"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maximus-75/alpha-printer-plugin.git"
+    "url": "git+https://github.com/Maximusr-1975/cordova-plugin-pos-printer.git"
   },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
-    "alpha-anywhere",
     "pos-printer",
-    "tspl",
     "html2canvas",
     "image-printing"
   ],
@@ -32,17 +27,14 @@
   "author": "Marcin Rodak",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/maximus-75/alpha-printer-plugin/issues"
+    "url": "https://github.com/Maximusr-1975/cordova-plugin-pos-printer/issues"
   },
-  "homepage": "https://github.com/maximus-75/alpha-printer-plugin#readme",
+  "homepage": "https://github.com/Maximusr-1975/cordova-plugin-pos-printer#readme",
   "files": [
     "plugin.xml",
     "www",
     "src",
     "index.js",
     "README.md"
-  ],
-  "engines": {
-    "cordova": ">=7.0.0"
-  }
+  ]
 }
