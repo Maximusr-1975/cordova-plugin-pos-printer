@@ -1,40 +1,23 @@
 {
   "name": "cordova-plugin-pos-printer",
   "version": "1.0.0",
-  "description": "POS Printer Plugin with HTML to Image support",
-  "main": "index.js",
+  "description": "Cordova POS Printer Plugin",
   "cordova": {
     "id": "cordova-plugin-pos-printer",
     "platforms": [
       "android"
     ]
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Maximusr-1975/cordova-plugin-pos-printer.git"
-  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
-    "pos-printer",
-    "html2canvas",
-    "image-printing"
+    "pos-printer"
   ],
-  "dependencies": {
-    "html2canvas": "^1.4.1",
-    "net": "^1.0.2"
+  "engines": {
+    "cordovaDependencies": {
+      "1.0.0": { "cordova-android": ">=7.0.0" }
+    }
   },
   "author": "Marcin Rodak",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Maximusr-1975/cordova-plugin-pos-printer/issues"
-  },
-  "homepage": "https://github.com/Maximusr-1975/cordova-plugin-pos-printer#readme",
-  "files": [
-    "plugin.xml",
-    "www",
-    "src",
-    "index.js",
-    "README.md"
-  ]
+  "license": "MIT"
 }

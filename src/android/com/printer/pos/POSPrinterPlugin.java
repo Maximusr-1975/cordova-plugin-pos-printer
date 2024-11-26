@@ -1,5 +1,4 @@
-
-package com.pos.printer;
+package com.printer.pos;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
@@ -8,7 +7,7 @@ import org.json.JSONException;
 import java.net.Socket;
 import java.io.OutputStreamWriter;
 
-public class PrinterPlugin extends CordovaPlugin {
+public class POSPrinterPlugin extends CordovaPlugin {
     @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
         if (action.equals("print")) {
